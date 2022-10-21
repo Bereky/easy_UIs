@@ -18,11 +18,11 @@ const Cards = () => {
                 </div>
                 <div className="flex flex-col mt-12 h-auto mx-3 space-y-1">
                     <a href="https://www.horizen.io/blockchain-academy/technology/advanced/what-is-a-blockchain" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
-                        <p className={`text-start font-medium text-purpleParent text-sm ${theme.darkMode && 'text-darkModeText'}`}>Horizon.io</p>
+                        <p className={`text-start font-medium ${!theme.darkMode && 'text-purpleParent'} text-sm ${theme.darkMode && 'text-darkModeText'}`}>Horizon.io</p>
                         <img src={externalLink} alt="external" className="h-4 cursor-pointer" />
                     </a>
                     <a href="https://www.youtube.com/watch?v=qOVAbKKSH10" alt="external"  target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
-                        <p className={`text-start text-purpleParent font-medium text-sm ${theme.darkMode && 'text-darkModeText'}`}>Coding Tech </p>
+                        <p className={`text-start ${!theme.darkMode && 'text-purpleParent'} font-medium text-sm ${theme.darkMode && 'text-darkModeText'}`}>Coding Tech </p>
                         <img src={externalLink} alt="external" className="h-4 cursor-pointer" />
                     </a>
                 </div>
@@ -40,11 +40,11 @@ const Cards = () => {
                 </div>
                 <div className="flex flex-col mt-12 h-auto mx-3 space-y-1">
                     <a href="https://bitcoin.org/bitcoin.pdf" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
-                        <p className={`text-start font-medium text-purpleParent text-sm ${theme.darkMode && 'text-darkModeText'}`}>Satoshi Nakamoto </p>
+                        <p className={`text-start font-medium ${!theme.darkMode && 'text-purpleParent'} text-sm ${theme.darkMode && 'text-darkModeText'}`}>Satoshi Nakamoto </p>
                         <img src={externalLink} alt="external" className="h-4 cursor-pointer" />
                     </a>
                     <a href="https://nakamoto.com/introduction-to-cryptocurrency" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
-                        <p className={`text-start text-purpleParent font-medium text-sm ${theme.darkMode && 'text-darkModeText'}`}>Haseeb Qureshi </p>
+                        <p className={`text-start ${!theme.darkMode && 'text-purpleParent'} font-medium text-sm ${theme.darkMode && 'text-darkModeText'}`}>Haseeb Qureshi </p>
                         <img src={externalLink} alt="external" className="h-4 cursor-pointer" />
                     </a>
                 </div>
@@ -69,11 +69,11 @@ const Cards = () => {
                 </div>
                 <div className="flex flex-col mt-12 h-auto mx-3 space-y-1">
                     <a href="https://ethereum.org/en/whitepaper/" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
-                        <p className={`text-start font-medium text-purpleParent text-sm ${theme.darkMode && 'text-darkModeText'}`}>Vitalik Buterin </p>
+                        <p className={`text-start font-medium ${!theme.darkMode && 'text-purpleParent'} text-sm ${theme.darkMode && 'text-darkModeText'}`}>Vitalik Buterin </p>
                         <img src={externalLink} alt="" className="h-4 cursor-pointer" />
                     </a>
                     <a href="https://www.techtarget.com/whatis/definition/Ethereum" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
-                        <p className={`text-start text-purpleParent font-medium text-sm ${theme.darkMode && 'text-darkModeText'}`}>TechTarget </p>
+                        <p className={`text-start ${!theme.darkMode && 'text-purpleParent'} font-medium text-sm ${theme.darkMode && 'text-darkModeText'}`}>TechTarget </p>
                         <img src={externalLink} alt="" className="h-4 cursor-pointer" />
                     </a>
                 </div>
@@ -89,11 +89,11 @@ const Cards = () => {
                 </div>
                 <div className="flex flex-col mt-12 h-auto mx-3 space-y-1">
                     <a href="https://en.wikipedia.org/wiki/Tether_(cryptocurrency)" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300" >
-                        <p className={`text-start font-medium text-purpleParent text-sm ${theme.darkMode && 'text-darkModeText'}`}>Tether Wikipedia</p>
+                        <p className={`text-start font-medium ${!theme.darkMode && 'text-purpleParent'} text-sm ${theme.darkMode && 'text-darkModeText'}`}>Tether Wikipedia</p>
                         <img src={externalLink} alt="" className="h-4 cursor-pointer" />
                     </a>
                     <a href="https://www.youtube.com/watch?v=GsSSLDzKCOE" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointe hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
-                        <p className={`text-start text-purpleParent font-medium text-sm ${theme.darkMode && 'text-darkModeText'}`}>99Bitcoins </p>
+                        <p className={`text-start ${!theme.darkMode && 'text-purpleParent'} font-medium text-sm ${theme.darkMode && 'text-darkModeText'}`}>99Bitcoins </p>
                         <img src={externalLink} alt="" className="h-4 cursor-pointer" />
                     </a>
                 </div>
