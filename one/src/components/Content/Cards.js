@@ -12,13 +12,13 @@ const Cards = () => {
                     <p className="text-center">Learn the fundamentals</p>
                 </div>
                 <div className="flex flex-col mt-12 h-auto mx-3 space-y-1">
-                    <a href="#" alt="" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
+                    <a href="https://www.horizen.io/blockchain-academy/technology/advanced/what-is-a-blockchain" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
                         <p className="text-start font-medium text-purpleParent text-sm ">Horizon.io</p>
-                        <img src={externalLink} alt="external link" className="h-4 cursor-pointer" />
+                        <img src={externalLink} alt="external" className="h-4 cursor-pointer" />
                     </a>
-                    <a href="#" alt=""  className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
+                    <a href="https://www.youtube.com/watch?v=qOVAbKKSH10" alt="external"  target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
                         <p className="text-start text-purpleParent font-medium text-sm">Coding Tech </p>
-                        <img src={externalLink} alt="" className="h-4 cursor-pointer" />
+                        <img src={externalLink} alt="external" className="h-4 cursor-pointer" />
                     </a>
                 </div>
             </div>
@@ -34,13 +34,13 @@ const Cards = () => {
                     <p className="text-center">The first digital money</p>
                 </div>
                 <div className="flex flex-col mt-12 h-auto mx-3 space-y-1">
-                    <a href="#" alt=""  className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
+                    <a href="https://bitcoin.org/bitcoin.pdf" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
                         <p className="text-start font-medium text-purpleParent text-sm ">Satoshi Nakamoto </p>
-                        <img src={externalLink} alt="" className="h-4 cursor-pointer" />
+                        <img src={externalLink} alt="external" className="h-4 cursor-pointer" />
                     </a>
-                    <a href="#" alt="" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
+                    <a href="https://nakamoto.com/introduction-to-cryptocurrency" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
                         <p className="text-start text-purpleParent font-medium text-sm">Haseeb Qureshi </p>
-                        <img src={externalLink} alt="" className="h-4 cursor-pointer" />
+                        <img src={externalLink} alt="external" className="h-4 cursor-pointer" />
                     </a>
                 </div>
             </div>
@@ -63,11 +63,11 @@ const Cards = () => {
                     <p className="text-center">The second gen. blockchain</p>
                 </div>
                 <div className="flex flex-col mt-12 h-auto mx-3 space-y-1">
-                    <a href="#" alt="" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
+                    <a href="https://ethereum.org/en/whitepaper/" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
                         <p className="text-start font-medium text-purpleParent text-sm ">Vitalik Buterin </p>
                         <img src={externalLink} alt="" className="h-4 cursor-pointer" />
                     </a>
-                    <a href="#" alt="" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
+                    <a href="https://www.techtarget.com/whatis/definition/Ethereum" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
                         <p className="text-start text-purpleParent font-medium text-sm">TechTarget </p>
                         <img src={externalLink} alt="" className="h-4 cursor-pointer" />
                     </a>
@@ -83,11 +83,11 @@ const Cards = () => {
                     <p className="text-center">Learn about stablecoins</p>
                 </div>
                 <div className="flex flex-col mt-12 h-auto mx-3 space-y-1">
-                    <a href="#" alt="" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300" >
+                    <a href="https://en.wikipedia.org/wiki/Tether_(cryptocurrency)" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointer hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300" >
                         <p className="text-start font-medium text-purpleParent text-sm ">Tether Wikipedia</p>
                         <img src={externalLink} alt="" className="h-4 cursor-pointer" />
                     </a>
-                    <a href="#" alt="" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointe hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
+                    <a href="https://www.youtube.com/watch?v=GsSSLDzKCOE" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointe hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
                         <p className="text-start text-purpleParent font-medium text-sm">99Bitcoins </p>
                         <img src={externalLink} alt="" className="h-4 cursor-pointer" />
                     </a>
