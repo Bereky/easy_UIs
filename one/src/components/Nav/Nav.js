@@ -10,7 +10,7 @@ const Nav = () => {
             </div>
             <div class="flex flex-row items-center space-x-3 justify-end px-12">
                 <img src={moon} alt="moon" class="h-8 cursor-pointer" />
-                <a href="#" alt="github_link">
+                <a href="https://github.com/Bereky" alt="github_link" target="_blank">
                     <img src={github} alt="github" class="h-8 cursor-pointer" />
                 </a>
             </div>
