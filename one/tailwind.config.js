@@ -22,7 +22,10 @@ module.exports = {
     extend: {
       colors: {
         purpleLight: '#5923BA',
-        purpleParent: '#5923BA'
+        purpleParent: '#5923BA',
+        darkModeText: '#B1B1B1',
+        darkModeCard: '#2C2C2C',
+        darkModeBody: '#242424'
       }
     },
   },

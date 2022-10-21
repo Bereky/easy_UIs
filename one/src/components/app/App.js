@@ -1,12 +1,13 @@
 import Content from "../Content";
+import ThemeProvider from "../Context/ThemeProvider";
 import Nav from "../Nav/Nav";
 
 const App = () => {
     return ( 
-        <div>
+        <ThemeProvider>
             <Nav />
             <Content />
-        </div>
+        </ThemeProvider>
      );
 }
  
