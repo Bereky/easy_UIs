@@ -4,6 +4,11 @@ import { ThemeContext } from "../Context/ThemeContext";
 import ThemeProvider from "../Context/ThemeProvider";
 import Nav from "../Nav/Nav";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
+
 const App = () => {
     const theme = useContext(ThemeContext)
 
