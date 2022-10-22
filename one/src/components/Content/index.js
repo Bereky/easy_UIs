@@ -3,11 +3,6 @@ import { ThemeContext } from "../Context/ThemeContext";
 import Cards from "./Cards";
 import HeroText from "./HeroText";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
-AOS.init();
-
 const Content = () => {
 
     const theme = useContext(ThemeContext);
