@@ -2,7 +2,7 @@ import moon from '../../asset/moon.svg';
 import sun from '../../asset/sun.svg';
 
 import { useContext, useState } from 'react'
-import { ThemeContext } from '../Context/ThemeContext';
+import { ThemeContext } from '../../Context/ThemeContext';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

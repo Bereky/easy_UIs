@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import Content from "../Content";
-import { ThemeContext } from "../Context/ThemeContext";
-import ThemeProvider from "../Context/ThemeProvider";
+import { ThemeContext } from "../../Context/ThemeContext";
 import Nav from "../Nav/Nav";
 
 import AOS from 'aos';

@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import externalLink from '../../asset/external-lnk.svg';
-import { ThemeContext } from '../Context/ThemeContext';
+import { ThemeContext } from '../../Context/ThemeContext';
 
 const Cards = () => {
 
