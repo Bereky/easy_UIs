@@ -99,7 +99,7 @@ const Cards = () => {
                             <img src={externalLink} alt="" className="h-4 cursor-pointer" />
                         </a>
                         <a href="https://www.youtube.com/watch?v=GsSSLDzKCOE" alt="external" target="_blank" className="flex flex-row h-auto px-2 items-center justify-between bg-purpleLight bg-opacity-30 rounded-md py-1 cursor-pointe hover:bg-purpleLight hover:bg-opacity-20 transition ease-in-out duration-300">
-                            <p className={`text-start text-purpleParent font-medium text-sm ${theme.darkMode && 'text-darkModeText'}`}>99Bitcoins </p>
+                            <p className={`text-start font-medium  ${!theme.darkMode && 'text-purpleParent'} text-sm ${theme.darkMode && 'text-darkModeText'}`}>99Bitcoins </p>
                             <img src={externalLink} alt="" className="h-4 cursor-pointer" />
                         </a>
                     </div>
